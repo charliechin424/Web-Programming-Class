@@ -1,0 +1,406 @@
+
+.box1 {
+    position: relative;
+    float: left;
+    width: 1300px;
+    height: 800px;
+    background-color: #202124;
+}
+
+.box2 {
+    float: left;
+    width: 587px;
+    height: 800px;
+    background-color: #202124
+}
+
+.block {
+    position: relative;
+    float: right;
+    margin-top: 17px;
+    margin-right: 17px;
+    width: 250px;
+    height: 200px;
+    background-color: #3d4043;
+    border-radius: 20px;
+}
+
+.bigblock {
+    position: relative;
+    float: right;
+    margin-top: 17px;
+    margin-right: 80px;
+    width: 400px;
+    height: 200px;
+    background-color: #3d4043;
+    border-radius: 20px;
+}
+
+.bigcircle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.smallcircle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.box3 {
+    position: relative;
+    float: left;
+    width: 1887px;
+    height: 130px;
+    background-color: #202124;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    left: 2%;
+    top: 50%;
+    transform:translate(0,-50%);
+}
+
+.name {
+    color: white;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+
+.mainuser {
+    color: white;
+    font-size: 90px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+.photo1 {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    float: left;
+    background-color: #3d4043;
+    margin-right: 2%;
+    border-radius: 50%;
+}
+
+ul {
+    list-style: none;
+}
+
+ul img {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%); 
+}
+
+.function1 {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%); 
+}
+
+.function2 {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform:translate(0,-50%); 
+}
+
+.photo2 {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    float: right;
+    background-color: #202124;
+    margin-right: 2%;
+    border-radius: 50%;
+}
+
+.pin {
+    position: absolute;
+    background-color: #202124;
+    bottom: 2%;
+    left: 2%;
+}
+
+.mic_off {
+    position: absolute;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    right: 5%;
+    top: 5%;
+    background-color: #35373a;
+}
+
+.micoff {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.group {
+    position: absolute;
+    right: 0%;
+    top: -10%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: #606367;
+    border-radius: 50%;
+}
+
+.hint1 {
+    color: white;
+    font-size: 10px;
+    width:120px;
+    height: 20px;
+    text-align: center;
+    background-color: #3d4043;
+    position: absolute;
+    top: -45%;
+    left: 50%;
+    border-radius: 5px;
+    transform:translate(-50%,0%); 
+    display: none;
+}
+
+.hint2 {
+    color: white;
+    font-size: 10px;
+    width:120px;
+    height: 20px;
+    text-align: center;
+    background-color: #3d4043;
+    position: absolute;
+    top: -45%;
+    left: 50%;
+    border-radius: 5px;
+    transform:translate(-50%,0%); 
+    display: none;
+}
+
+.hint3 {
+    color: white;
+    font-size: 10px;
+    width:40px;
+    height: 20px;
+    text-align: center;
+    background-color: #3d4043;
+    position: absolute;
+    top: -45%;
+    left: 50%;
+    border-radius: 5px;
+    transform:translate(-50%,0%); 
+    display: none;
+}
+
+.hint4 {
+    color: white;
+    font-size: 10px;
+    width:80px;
+    height: 20px;
+    text-align: center;
+    background-color: #3d4043;
+    position: absolute;
+    top: -45%;
+    left: 50%;
+    border-radius: 5px;
+    transform:translate(-50%,0%); 
+    display: none;
+}
+
+.hint5 {
+    color: white;
+    font-size: 10px;
+    width:60px;
+    height: 20px;
+    text-align: center;
+    background-color: #3d4043;
+    position: absolute;
+    top: -45%;
+    left: 50%;
+    border-radius: 5px;
+    transform:translate(-50%,0%); 
+    display: none;
+}
+
+.hint6 {
+    color: white;
+    font-size: 10px;
+    width:60px;
+    height: 20px;
+    text-align: center;
+    background-color: #3d4043;
+    position: absolute;
+    top: -45%;
+    left: 50%;
+    border-radius: 5px;
+    transform:translate(-50%,0%); 
+    display: none;
+}
+
+.hint7 {
+    color: white;
+    font-size: 10px;
+    width:80px;
+    height: 20px;
+    text-align: center;
+    background-color: #3d4043;
+    position: absolute;
+    top: -45%;
+    left: 50%;
+    border-radius: 5px;
+    transform:translate(-50%,0%); 
+    display: none;
+}
+
+.hint8 {
+    color: white;
+    font-size: 10px;
+    width:90px;
+    height: 20px;
+    text-align: center;
+    background-color: #3d4043;
+    position: absolute;
+    top: -45%;
+    left: 50%;
+    border-radius: 5px;
+    transform:translate(-50%,0%); 
+    display: none;
+}
+
+.hint9 {
+    color: white;
+    font-size: 10px;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    background-color: #3d4043;
+    position: absolute;
+    top: -45%;
+    left: 50%;
+    border-radius: 5px;
+    transform:translate(-50%,0%); 
+    display: none;
+}
+
+.hint10 {
+    color: white;
+    font-size: 10px;
+    width:40px;
+    height: 20px;
+    text-align: center;
+    background-color: #3d4043;
+    position: absolute;
+    top: -45%;
+    left: 50%;
+    border-radius: 5px;
+    transform:translate(-50%,0%); 
+    display: none;
+}
+
+.hint11 {
+    color: white;
+    font-size: 10px;
+    width:80px;
+    height: 20px;
+    text-align: center;
+    background-color: #3d4043;
+    position: absolute;
+    top: -45%;
+    left: 50%;
+    border-radius: 5px;
+    transform:translate(-50%,0%); 
+    display: none;
+}
+
+li:hover .hint1 {
+    display: block;
+}
+
+li:hover .hint2 {
+    display: block;
+}
+
+li:hover .hint3 {
+    display: block;
+}
+
+li:hover .hint4 {
+    display: block;
+}
+
+li:hover .hint5 {
+    display: block;
+}
+
+li:hover .hint6 {
+    display: block;
+}
+
+li:hover .hint7 {
+    display: block;
+}
+
+li:hover .hint8 {
+    display: block;
+}
+
+li:hover .hint9 {
+    display: block;
+}
+
+li:hover .hint10 {
+    display: block;
+}
+
+li:hover .hint11 {
+    display: block;
+}
+
+.ellipse {
+    width: 60px;
+    height: 48px;
+    border-radius: 22px;
+}
+
+.ellipse1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 170px;
+    height: 70px;
+    border-radius: 25px;
+    background-color: gray;
+}
+
+
+
+
+
+    
