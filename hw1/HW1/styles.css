@@ -1,39 +1,57 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    width: 100vw;
+}
 
 .box1 {
     position: relative;
     float: left;
-    width: 1300px;
-    height: 800px;
+    width: 69vw;
+    height: 85vh;
     background-color: #202124;
+    box-sizing: content-box;
 }
 
 .box2 {
+    position: relative;
     float: left;
-    width: 587px;
-    height: 800px;
-    background-color: #202124
+    width: 31vw;
+    height: 85vh;
+    background-color: #202124;
+    box-sizing: content-box;
+}
+
+.box3 {
+    position: relative;
+    float: left;
+    width: 100vw;
+    height: 15vh;
+    background-color: #202124;
 }
 
 .block {
     position: relative;
     float: right;
-    margin-top: 17px;
-    margin-right: 17px;
-    width: 250px;
-    height: 200px;
+    margin-top: 3%;
+    margin-right: 3%;
+    width: 47%;
+    height: 24%;
     background-color: #3d4043;
-    border-radius: 20px;
+    border-radius: 6%;
 }
 
 .bigblock {
     position: relative;
     float: right;
-    margin-top: 17px;
-    margin-right: 80px;
-    width: 400px;
-    height: 200px;
+    margin-top: 3%;
+    margin-right: 18%;
+    width: 64%;
+    height: 28%;
     background-color: #3d4043;
-    border-radius: 20px;
+    border-radius: 7%;
 }
 
 .bigcircle {
@@ -41,29 +59,32 @@
     top: 50%;
     left: 50%;
     transform:translate(-50%,-50%);
-    width: 200px;
-    height: 200px;
+    width: 15%;
+    height: 25%;
     background-color: green;
     border-radius: 50%;
 }
 
-.smallcircle {
+.smallcircle1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform:translate(-50%,-50%);
-    width: 120px;
-    height: 120px;
+    width: 44%;
+    height: 67%;
     border-radius: 50%;
 }
 
-.box3 {
-    position: relative;
-    float: left;
-    width: 1887px;
-    height: 130px;
-    background-color: #202124;
+.smallcircle2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 40%;
+    height: 67%;
+    border-radius: 50%;
 }
+
 
 .text {
     color: white;
@@ -81,21 +102,35 @@
 }
 
 .mainuser {
+    width: 100%;
+    height: 60%;
     color: white;
-    font-size: 90px;
+    font-size: 5vmax;
     font-weight: 700;
     position: absolute;
-    top: 50%;
+    text-align: center;
+    margin: -2% auto;
+    top: 49%;
     left: 50%;
     transform:translate(-50%,-50%);
 }
 
 .photo1 {
     position: relative;
-    width: 48px;
-    height: 48px;
+    width: 11%;
+    height: 45px;
     float: left;
     background-color: #3d4043;
+    margin-right: 2%;
+    border-radius: 50%;
+}
+
+.photo2 {
+    position: relative;
+    width: 11%;
+    height: 45px;
+    float: right;
+    background-color: #202124;
     margin-right: 2%;
     border-radius: 50%;
 }
@@ -105,8 +140,8 @@ ul {
 }
 
 ul img {
-    width: 35px;
-    height: 35px;
+    width: 70%;
+    height: 70%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -114,7 +149,7 @@ ul img {
 }
 
 .function1 {
-    width: 400px;
+    width: 20%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -122,21 +157,11 @@ ul img {
 }
 
 .function2 {
-    width: 400px;
+    width: 20%;
     position: absolute;
     top: 50%;
-    right: 0%;
+    right: 1%;
     transform:translate(0,-50%); 
-}
-
-.photo2 {
-    position: relative;
-    width: 48px;
-    height: 48px;
-    float: right;
-    background-color: #202124;
-    margin-right: 2%;
-    border-radius: 50%;
 }
 
 .pin {
@@ -149,16 +174,36 @@ ul img {
 .mic_off {
     position: absolute;
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
+    width: 12%;
+    height: 16%;
+    right: 5%;
+    top: 5%;
+    background-color: #35373a;
+}
+
+.mic_off1 {
+    position: absolute;
+    border-radius: 50%;
+    width: 10%;
+    height: 16%;
+    right: 5%;
+    top: 5%;
+    background-color: #35373a;
+}
+
+.mic_off2 {
+    position: absolute;
+    border-radius: 50%;
+    width: 3%;
+    height: 5%;
     right: 5%;
     top: 5%;
     background-color: #35373a;
 }
 
 .micoff {
-    width: 25px;
-    height: 25px;
+    /* width: ;
+    height: 25px; */
     border-radius: 50%;
 }
 
@@ -166,22 +211,23 @@ ul img {
     position: absolute;
     right: 0%;
     top: -10%;
-    width: 20px;
-    height: 20px;
+    width: 40%;
+    height: 40%;
     text-align: center;
     background-color: #606367;
     border-radius: 50%;
 }
 
 .hint1 {
+    text-align: center;
     color: white;
-    font-size: 10px;
-    width:120px;
-    height: 20px;
+    font-size: 1vmax;
+    width: 450%;
+    height: 50%;
     text-align: center;
     background-color: #3d4043;
     position: absolute;
-    top: -45%;
+    top: -70%;
     left: 50%;
     border-radius: 5px;
     transform:translate(-50%,0%); 
@@ -189,14 +235,15 @@ ul img {
 }
 
 .hint2 {
+    text-align: center;
     color: white;
-    font-size: 10px;
-    width:120px;
-    height: 20px;
+    font-size: 1vmax;
+    width: 450%;
+    height: 50%;
     text-align: center;
     background-color: #3d4043;
     position: absolute;
-    top: -45%;
+    top: -70%;
     left: 50%;
     border-radius: 5px;
     transform:translate(-50%,0%); 
@@ -204,14 +251,15 @@ ul img {
 }
 
 .hint3 {
+    text-align: center;
     color: white;
-    font-size: 10px;
-    width:40px;
-    height: 20px;
+    font-size: 1vmax;
+    width: 145%;
+    height: 50%;
     text-align: center;
     background-color: #3d4043;
     position: absolute;
-    top: -45%;
+    top: -70%;
     left: 50%;
     border-radius: 5px;
     transform:translate(-50%,0%); 
@@ -219,14 +267,15 @@ ul img {
 }
 
 .hint4 {
+    text-align: center;
     color: white;
-    font-size: 10px;
-    width:80px;
-    height: 20px;
+    font-size: 1vmax;
+    width: 300%;
+    height: 50%;
     text-align: center;
     background-color: #3d4043;
     position: absolute;
-    top: -45%;
+    top: -70%;
     left: 50%;
     border-radius: 5px;
     transform:translate(-50%,0%); 
@@ -234,14 +283,15 @@ ul img {
 }
 
 .hint5 {
+    text-align: center;
     color: white;
-    font-size: 10px;
-    width:60px;
-    height: 20px;
+    font-size: 1vmax;
+    width: 230%;
+    height: 50%;
     text-align: center;
     background-color: #3d4043;
     position: absolute;
-    top: -45%;
+    top: -70%;
     left: 50%;
     border-radius: 5px;
     transform:translate(-50%,0%); 
@@ -249,14 +299,15 @@ ul img {
 }
 
 .hint6 {
+    text-align: center;
     color: white;
-    font-size: 10px;
-    width:60px;
-    height: 20px;
+    font-size: 1vmax;
+    width: 145%;
+    height: 50%;
     text-align: center;
     background-color: #3d4043;
     position: absolute;
-    top: -45%;
+    top: -70%;
     left: 50%;
     border-radius: 5px;
     transform:translate(-50%,0%); 
@@ -264,14 +315,15 @@ ul img {
 }
 
 .hint7 {
+    text-align: center;
     color: white;
-    font-size: 10px;
-    width:80px;
-    height: 20px;
+    font-size: 1vmax;
+    width: 320%;
+    height: 50%;
     text-align: center;
     background-color: #3d4043;
     position: absolute;
-    top: -45%;
+    top: -70%;
     left: 50%;
     border-radius: 5px;
     transform:translate(-50%,0%); 
@@ -279,14 +331,15 @@ ul img {
 }
 
 .hint8 {
+    text-align: center;
     color: white;
-    font-size: 10px;
-    width:90px;
-    height: 20px;
+    font-size: 1vmax;
+    width: 370%;
+    height: 50%;
     text-align: center;
     background-color: #3d4043;
     position: absolute;
-    top: -45%;
+    top: -70%;
     left: 50%;
     border-radius: 5px;
     transform:translate(-50%,0%); 
@@ -294,14 +347,15 @@ ul img {
 }
 
 .hint9 {
+    text-align: center;
     color: white;
-    font-size: 10px;
-    width: 150px;
-    height: 20px;
+    font-size: 1vmax;
+    width: 570%;
+    height: 50%;
     text-align: center;
     background-color: #3d4043;
     position: absolute;
-    top: -45%;
+    top: -70%;
     left: 50%;
     border-radius: 5px;
     transform:translate(-50%,0%); 
@@ -309,14 +363,15 @@ ul img {
 }
 
 .hint10 {
+    text-align: center;
     color: white;
-    font-size: 10px;
-    width:40px;
-    height: 20px;
+    font-size: 1vmax;
+    width: 140%;
+    height: 50%;
     text-align: center;
     background-color: #3d4043;
     position: absolute;
-    top: -45%;
+    top: -70%;
     left: 50%;
     border-radius: 5px;
     transform:translate(-50%,0%); 
@@ -324,14 +379,15 @@ ul img {
 }
 
 .hint11 {
+    text-align: center;
     color: white;
-    font-size: 10px;
-    width:80px;
-    height: 20px;
+    font-size: 1vmax;
+    width: 310%;
+    height: 50%;
     text-align: center;
     background-color: #3d4043;
     position: absolute;
-    top: -45%;
+    top: -70%;
     left: 50%;
     border-radius: 5px;
     transform:translate(-50%,0%); 
@@ -383,9 +439,8 @@ li:hover .hint11 {
 }
 
 .ellipse {
-    width: 60px;
-    height: 48px;
-    border-radius: 22px;
+    width: 17%;
+    border-radius: 40%;
 }
 
 .ellipse1 {
@@ -393,10 +448,93 @@ li:hover .hint11 {
     top: 50%;
     left: 50%;
     transform:translate(-50%,-50%);
-    width: 170px;
-    height: 70px;
-    border-radius: 25px;
-    background-color: gray;
+    width: 90%;
+    height: 30%;
+    border-radius: 25%;
+    background-color: #505355;
+    display: none;
+}
+
+.ellipse2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 55%;
+    height: 30%;
+    border-radius: 25%;
+    background-color: #505355;
+    display: none;
+}
+
+.ellipse3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 42%;
+    height: 30%;
+    border-radius: 25%;
+    background-color: #505355;
+    display: none;
+}
+
+.function3 {
+    width: 30%;
+    height: 100%;
+    position: relative;
+    float: left;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+.function4 {
+    width: 30%;
+    height: 100%;
+    position: relative;
+    float: left;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+.box1:hover .ellipse1 {
+    display: block;
+    opacity: 0.6;
+}
+
+.bigcircle:hover .ellipse1 {
+    display: block;
+    opacity: 0.9;
+}
+
+.block:hover .ellipse2 {
+    display: block;
+    opacity: 0.6;
+}
+
+.touch:hover .ellipse2 {
+    display: block;
+    opacity: 0.8;
+}
+
+.bigblock:hover .ellipse3 {
+    display: block;
+    opacity: 0.6;
+}
+
+.touch:hover .ellipse3 {
+    display: block;
+    opacity: 0.8;
+}
+
+.img1 {
+    width: 70%;
+    height: 70%;
+}
+
+.img2 {
+    width: 100%;
+    height: 100%;
 }
 
 
